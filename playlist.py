@@ -111,7 +111,9 @@ class CustomPlaylist:
 
 if __name__ == '__main__':
     cp = CustomPlaylist()
+    # Release Radar playlist ID
     playlist_idR = "37i9dQZEVXbvAO1IKDPXPL"
+    # Discover Weekly playlist ID
     playlist_idD = "37i9dQZEVXcCQpauWAUHoQ"
     test = "04ksl1Qz1yLVmWRH6f67zI"
     cp.add_song_to_playlist(test)
